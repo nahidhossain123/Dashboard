@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2>
+                <i class="lab la-accusoft"></i><span>Acc</span><span>uasoft</span>
+            </h2>
+        </div>
+        <div class="sidebar-links">
+            <ul>
+                <li><a href="#" class="active"><i class="las la-igloo"></i><span>Dashboard</span></a></li>
+                <li><a href="#"><i class="las la-users"></i><span>Customer</span></a></li>
+                <li><a href="#"><i class="las la-clipboard-list"></i><span>Projects</span></a></li>
+                <li><a href="#"><i class="las la-shopping-bag"></i><span>Orders</span></a></li>
+                <li><a href="#"><i class="las la-receipt"></i><span>Inventory</span></a></li>
+                <li><a href="#"><i class="las la-user-circle"></i><span>Accounts</span></a></li>
+                <li><a href="#"><i class="las la-clipboard-list"></i><span>Tasks</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h1>
+                <label for="nav-toggle">
+                    <i class="las la-bars"></i>
+                </label>
+                Dashboard
+            </h1>
+            <div class="search-wrapper">
+                <i class="las la-search"></i>
+                <input type="search" placeholder="Search here" />
+            </div>
+            <div class="user-wrraper">
+                <img src="/media/profile.jpg" width="40px" height="40px" alt="profile photo">
+                <div>
+                    <h4>Jhon Doe</h4>
+                    <small>Super Admin</small>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="dashboard-cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Customers</span>
+                    </div>
+                    <i class="las la-users"></i>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>80</h1>
+                        <span>Projects</span>
+                    </div>
+                    <i class="las la-clipboard"></i>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>150</h1>
+                        <span>Orders</span>
+                    </div>
+                    <i class="las la-shopping-bag"></i>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>$50k</h1>
+                        <span>Income</span>
+                    </div>
+                    <i class="lab la-google-wallet"></i>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="projects">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Recent Projects</h3>
+                            <button>See All <i class="las la-arrow-right"></i></button>
+                        </div>
+                        <div class="card-body table-responsive">
+                            <table width="100%">
+                                <thead>
+                                    <tr>
+                                        <td>Project Title</td>
+                                        <td>Department</td>
+                                        <td>Status</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>UI/UX Desing</td>
+                                        <td>UI Team</td>
+                                        <td><span class="status pink"></span>Review</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Frontend</td>
+                                        <td><span class="status orange"></span>In progress</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ushop App</td>
+                                        <td>Mobile Team</td>
+                                        <td><span class="status pink"></span>Pending</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UI/UX Desing</td>
+                                        <td>UI Team</td>
+                                        <td><span class="status purple"></span>Review</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Frontend</td>
+                                        <td><span class="status orange"></span>In progress</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ushop App</td>
+                                        <td>Mobile Team</td>
+                                        <td><span class="status pink"></span>Pending</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UI/UX Desing</td>
+                                        <td>UI Team</td>
+                                        <td><span class="status pink"></span>Review</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Frontend</td>
+                                        <td><span class="status orange"></span>In progress</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ushop App</td>
+                                        <td>Mobile Team</td>
+                                        <td><span class="status pink"></span>Pending</td>
+                                    </tr>
+                                    <tr>
+                                        <td>UI/UX Desing</td>
+                                        <td>UI Team</td>
+                                        <td><span class="status purple"></span>Review</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Web Development</td>
+                                        <td>Frontend</td>
+                                        <td><span class="status orange"></span>In progress</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ushop App</td>
+                                        <td>Mobile Team</td>
+                                        <td><span class="status pink"></span>Pending</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>New customers</h3>
+                            <button>See All <i class="las la-arrow-right"></i></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                            <div class="customer">
+                                <div class="info">
+                                    <img src="/media/profile.jpg" width="40px" height="40px" alt="image">
+                                    <div>
+                                        <h4>Lewis S. Cunningham</h4>
+                                        <small>CEO Excerpt</small>
+                                    </div>
+                                </div>
+                                <div class="contact">
+                                    <i class="las la-user-circle"></i>
+                                    <i class="las la-comment"></i>
+                                    <i class="las la-phone"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+</body>
+</html>
